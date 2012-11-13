@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv_sec="1305206201" tv_usec="806672" name="rec-enable change">
+    <MementoCommand obj_id="1538" type_name="N6ARDOUR10AudioTrackE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1545">
+        <IO name="Audio 1" id="1538" active="yes" input-connection="in 7+8" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="no">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1550" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1549"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1553" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1552"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="1539"/>
+          <Automation>
+            <AutomationList id="1540" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="1542"/>
+        <controllable name="mute" id="1543"/>
+        <remote_control id="7"/>
+        <extra>
+          <GUI color="1386:500:26542" height="72" shown_editor="yes" shown_mixer="yes" strip_width="Wide">
+            <gain height="72" shown="no"/>
+            <pan height="72" shown="no"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1544"/>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1545">
+        <IO name="Audio 1" id="1538" active="yes" input-connection="in 7+8" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="no">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1550" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1549"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1553" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1552"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="1539"/>
+          <Automation>
+            <AutomationList id="1540" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="1542"/>
+        <controllable name="mute" id="1543"/>
+        <remote_control id="7"/>
+        <extra>
+          <GUI color="1386:500:26542" height="72" shown_editor="yes" shown_mixer="yes" strip_width="Wide">
+            <gain height="72" shown="no"/>
+            <pan height="72" shown="no"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1544"/>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305206203" tv_usec="324851" name="rec-enable change">
+    <MementoCommand obj_id="134" type_name="N6ARDOUR10AudioTrackE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=1:signal=1" mode="Normal" diskstream-id="141">
+        <IO name="mics" id="134" active="yes" inputs="{system:capture_1}{system:capture_2}{system:capture_3}{system:capture_4}{system:capture_5}{system:capture_6}{system:capture_9}{system:capture_10}{system:capture_11}{system:capture_12}" outputs="{kugel_vorne/in 1}{kugel_vorne/in 2}{kugel_hinten/in 1}{kugel_hinten/in 2}{niere_hinten/in 1}{niere_hinten/in 2}{tetramic/in 1}{tetramic/in 2}{tetramic/in 3}{tetramic/in 4}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="0.10000000149" y="0.10000000149"/>
+            <Output x="0.20000000298" y="0.20000000298"/>
+            <Output x="0.300000011921" y="0.300000011921"/>
+            <Output x="0.40000000596" y="0.40000000596"/>
+            <Output x="0.5" y="0.5"/>
+            <Output x="0.600000023842" y="0.600000023842"/>
+            <Output x="0.699999988079" y="0.699999988079"/>
+            <Output x="0.800000011921" y="0.800000011921"/>
+            <Output x="0.899999976158" y="0.899999976158"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+          </Panner>
+          <controllable name="gaincontrol" id="135"/>
+          <Automation>
+            <AutomationList id="1299" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="138"/>
+        <controllable name="mute" id="139"/>
+        <remote_control id="2"/>
+        <extra>
+          <GUI color="5650:22500:11788" shown_mixer="yes" height="72" shown_editor="yes" strip_width="Wide">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1333"/>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=1:signal=1" mode="Normal" diskstream-id="141">
+        <IO name="mics" id="134" active="yes" inputs="{system:capture_1}{system:capture_2}{system:capture_3}{system:capture_4}{system:capture_5}{system:capture_6}{system:capture_9}{system:capture_10}{system:capture_11}{system:capture_12}" outputs="{kugel_vorne/in 1}{kugel_vorne/in 2}{kugel_hinten/in 1}{kugel_hinten/in 2}{niere_hinten/in 1}{niere_hinten/in 2}{tetramic/in 1}{tetramic/in 2}{tetramic/in 3}{tetramic/in 4}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="0.10000000149" y="0.10000000149"/>
+            <Output x="0.20000000298" y="0.20000000298"/>
+            <Output x="0.300000011921" y="0.300000011921"/>
+            <Output x="0.40000000596" y="0.40000000596"/>
+            <Output x="0.5" y="0.5"/>
+            <Output x="0.600000023842" y="0.600000023842"/>
+            <Output x="0.699999988079" y="0.699999988079"/>
+            <Output x="0.800000011921" y="0.800000011921"/>
+            <Output x="0.899999976158" y="0.899999976158"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+            <StreamPanner x="0.5" y="0.5" type="Multiple (2D)"/>
+          </Panner>
+          <controllable name="gaincontrol" id="135"/>
+          <Automation>
+            <AutomationList id="1299" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="138"/>
+        <controllable name="mute" id="139"/>
+        <remote_control id="2"/>
+        <extra>
+          <GUI color="5650:22500:11788" shown_mixer="yes" height="72" shown_editor="yes" strip_width="Wide">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1333"/>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305206361" tv_usec="990449" name="capture">
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no"/>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1589" name="mics-1.1" start="0" length="5705694" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+    <MementoCommand obj_id="1546" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="Audio 1.1" orig_diskstream_id="1545" frozen="no"/>
+      <Playlist name="Audio 1.1" orig_diskstream_id="1545" frozen="no">
+        <Region id="1621" name="Audio 1-2.1" start="0" length="5705694" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1564" source-1="1566" channels="2" master-source-0="1564" master-source-1="1566">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305206405" tv_usec="427562" name="solo change">
+    <MementoCommand obj_id="1538" type_name="N6ARDOUR10AudioTrackE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1545">
+        <IO name="Audio 1" id="1538" active="yes" input-connection="in 7+8" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="no">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1550" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1549"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1553" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1552"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="1539"/>
+          <Automation>
+            <AutomationList id="1540" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="1542"/>
+        <controllable name="mute" id="1543"/>
+        <remote_control id="7"/>
+        <extra>
+          <GUI color="1386:500:26542" height="72" shown_editor="yes" shown_mixer="yes" strip_width="Wide">
+            <gain height="72" shown="no"/>
+            <pan height="72" shown="no"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1544"/>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="yes" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1545">
+        <IO name="Audio 1" id="1538" active="yes" input-connection="in 7+8" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="no">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1550" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1549"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1553" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1552"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="1539"/>
+          <Automation>
+            <AutomationList id="1540" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="1542"/>
+        <controllable name="mute" id="1543"/>
+        <remote_control id="7"/>
+        <extra>
+          <GUI color="1386:500:26542" height="72" shown_editor="yes" shown_mixer="yes" strip_width="Wide">
+            <gain height="72" shown="no"/>
+            <pan height="72" shown="no"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1544"/>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305206441" tv_usec="186844" name="solo change">
+    <MementoCommand obj_id="1538" type_name="N6ARDOUR10AudioTrackE">
+      <Route default-type="audio" muted="no" soloed="yes" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1545">
+        <IO name="Audio 1" id="1538" active="yes" input-connection="in 7+8" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="no">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1550" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1549"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1553" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1552"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="1539"/>
+          <Automation>
+            <AutomationList id="1540" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="1542"/>
+        <controllable name="mute" id="1543"/>
+        <remote_control id="7"/>
+        <extra>
+          <GUI color="1386:500:26542" height="72" shown_editor="yes" shown_mixer="yes" strip_width="Wide">
+            <gain height="72" shown="no"/>
+            <pan height="72" shown="no"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1544"/>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1545">
+        <IO name="Audio 1" id="1538" active="yes" input-connection="in 7+8" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="no">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1550" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1549"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="1553" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="1552"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="1539"/>
+          <Automation>
+            <AutomationList id="1540" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="1542"/>
+        <controllable name="mute" id="1543"/>
+        <remote_control id="7"/>
+        <extra>
+          <GUI color="1386:500:26542" height="72" shown_editor="yes" shown_mixer="yes" strip_width="Wide">
+            <gain height="72" shown="no"/>
+            <pan height="72" shown="no"/>
+          </GUI>
+        </extra>
+        <alignment style="ExistingMaterial"/>
+        <controllable name="recenable" id="1544"/>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305206800" tv_usec="220413" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="19189646" end="19189646" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1589" name="mics-1.1" start="0" length="5705694" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1589" name="mics-1.1" start="0" length="5705694" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="1653" name="mics-2.1" start="0" length="5959646" position="13230000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1595" source-1="1597" source-2="1599" source-3="1601" source-4="1603" source-5="1605" source-6="1607" source-7="1609" source-8="1611" source-9="1613" channels="10" master-source-0="1595" master-source-1="1597" master-source-2="1599" master-source-3="1601" master-source-4="1603" master-source-5="1605" master-source-6="1607" master-source-7="1609" master-source-8="1611" master-source-9="1613">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+    <MementoCommand obj_id="1546" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="Audio 1.1" orig_diskstream_id="1545" frozen="no">
+        <Region id="1621" name="Audio 1-2.1" start="0" length="5705694" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1564" source-1="1566" channels="2" master-source-0="1564" master-source-1="1566">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="Audio 1.1" orig_diskstream_id="1545" frozen="no">
+        <Region id="1621" name="Audio 1-2.1" start="0" length="5705694" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1564" source-1="1566" channels="2" master-source-0="1564" master-source-1="1566">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          </extra>
+        </Region>
+        <Region id="1684" name="Audio 1-3.1" start="0" length="5959646" position="13230000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1627" source-1="1629" channels="2" master-source-0="1627" master-source-1="1629">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

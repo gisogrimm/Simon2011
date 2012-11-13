@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UndoHistory>
+  <UndoTransaction tv_sec="1305103302" tv_usec="188821" name="mute change">
+    <MementoCommand obj_id="918" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103302" tv_usec="611949" name="mute change">
+    <MementoCommand obj_id="918" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103303" tv_usec="515862" name="mute change">
+    <MementoCommand obj_id="930" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103304" tv_usec="443686" name="mute change">
+    <MementoCommand obj_id="942" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
+        <IO name="niere_hinten" id="942" active="yes" inputs="{mics/out 5}{mics/out 6}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="950" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="949"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="953" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="952"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="943"/>
+          <Automation>
+            <AutomationList id="1360" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="946"/>
+        <controllable name="mute" id="947"/>
+        <remote_control id="5"/>
+        <extra>
+          <GUI color="6905:21707:19935" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
+        <IO name="niere_hinten" id="942" active="yes" inputs="{mics/out 5}{mics/out 6}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="950" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="949"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="953" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="952"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="943"/>
+          <Automation>
+            <AutomationList id="1360" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="946"/>
+        <controllable name="mute" id="947"/>
+        <remote_control id="5"/>
+        <extra>
+          <GUI color="6905:21707:19935" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103343" tv_usec="967618" name="mute change">
+    <MementoCommand obj_id="930" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103345" tv_usec="294681" name="mute change">
+    <MementoCommand obj_id="918" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103392" tv_usec="362152" name="mute change">
+    <MementoCommand obj_id="918" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
+        <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="926" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="925"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="929" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="928"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="919"/>
+          <Automation>
+            <AutomationList id="1336" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="922"/>
+        <controllable name="mute" id="923"/>
+        <remote_control id="3"/>
+        <extra>
+          <GUI color="22119:20925:47921" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103393" tv_usec="337508" name="mute change">
+    <MementoCommand obj_id="930" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103426" tv_usec="596238" name="mute change">
+    <MementoCommand obj_id="930" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+        <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="937"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="940"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="931"/>
+          <Automation>
+            <AutomationList id="1348" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="934"/>
+        <controllable name="mute" id="935"/>
+        <remote_control id="4"/>
+        <extra>
+          <GUI color="3118:14497:11944" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305103427" tv_usec="427533" name="mute change">
+    <MementoCommand obj_id="942" type_name="N6ARDOUR5RouteE">
+      <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
+        <IO name="niere_hinten" id="942" active="yes" inputs="{mics/out 5}{mics/out 6}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="950" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="949"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="953" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="952"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="943"/>
+          <Automation>
+            <AutomationList id="1360" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="946"/>
+        <controllable name="mute" id="947"/>
+        <remote_control id="5"/>
+        <extra>
+          <GUI color="6905:21707:19935" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+      <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
+        <IO name="niere_hinten" id="942" active="yes" inputs="{mics/out 5}{mics/out 6}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+          <Panner linked="no" link_direction="SameDirection" bypassed="yes">
+            <Output x="0" y="0"/>
+            <Output x="1" y="0"/>
+            <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="950" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="949"/>
+            </StreamPanner>
+            <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+              <Automation>
+                <AutomationList id="953" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+              </Automation>
+              <controllable name="panner" id="952"/>
+            </StreamPanner>
+          </Panner>
+          <controllable name="gaincontrol" id="943"/>
+          <Automation>
+            <AutomationList id="1360" default="0" min_yval="0" max_yval="0" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+        </IO>
+        <controllable name="solo" id="946"/>
+        <controllable name="mute" id="947"/>
+        <remote_control id="5"/>
+        <extra>
+          <GUI color="6905:21707:19935" strip_width="Wide" shown_mixer="yes" height="195" shown_editor="yes">
+            <gain shown="no" height="72"/>
+            <pan shown="no" height="72"/>
+          </GUI>
+        </extra>
+      </Route>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104338" tv_usec="185849" name="capture">
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104506" tv_usec="857856" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="13230000" end="13230000" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="14206864" end="14206864" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104602" tv_usec="533483" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="14206864" end="14206864" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="15308654" end="15308654" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104670" tv_usec="517324" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="15308654" end="15308654" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="17880908" end="17880908" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104727" tv_usec="184786" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="17880908" end="17880908" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="19584810" end="19584810" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104787" tv_usec="742422" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="19584810" end="19584810" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="20682504" end="20682504" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104823" tv_usec="231842" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="20682504" end="20682504" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="21898982" end="21898982" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104852" tv_usec="395075" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="21898982" end="21898982" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="23127748" end="23127748" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1933" name="mics-10.1" start="0" length="1228766" position="21898982" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="9" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1900" source-1="1902" source-2="1905" source-3="1907" source-4="1909" source-5="1911" source-6="1913" source-7="1915" source-8="1917" source-9="1919" channels="10" master-source-0="1900" master-source-1="1902" master-source-2="1905" master-source-3="1907" master-source-4="1909" master-source-5="1911" master-source-6="1913" master-source-7="1915" master-source-8="1917" master-source-9="1919">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305104958" tv_usec="96932" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="23127748" end="23127748" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="26539682" end="26539682" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1933" name="mics-10.1" start="0" length="1228766" position="21898982" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="9" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1900" source-1="1902" source-2="1905" source-3="1907" source-4="1909" source-5="1911" source-6="1913" source-7="1915" source-8="1917" source-9="1919" channels="10" master-source-0="1900" master-source-1="1902" master-source-2="1905" master-source-3="1907" master-source-4="1909" master-source-5="1911" master-source-6="1913" master-source-7="1915" master-source-8="1917" master-source-9="1919">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1933" name="mics-10.1" start="0" length="1228766" position="21898982" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="9" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1900" source-1="1902" source-2="1905" source-3="1907" source-4="1909" source-5="1911" source-6="1913" source-7="1915" source-8="1917" source-9="1919" channels="10" master-source-0="1900" master-source-1="1902" master-source-2="1905" master-source-3="1907" master-source-4="1909" master-source-5="1911" master-source-6="1913" master-source-7="1915" master-source-8="1917" master-source-9="1919">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1972" name="mics-11.1" start="0" length="3411934" position="23127748" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="10" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1939" source-1="1941" source-2="1944" source-3="1946" source-4="1948" source-5="1950" source-6="1952" source-7="1954" source-8="1956" source-9="1958" channels="10" master-source-0="1939" master-source-1="1941" master-source-2="1944" master-source-3="1946" master-source-4="1948" master-source-5="1950" master-source-6="1952" master-source-7="1954" master-source-8="1956" master-source-9="1958">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv_sec="1305105045" tv_usec="22633" name="capture">
+    <MementoCommand obj_id="1282" type_name="N6ARDOUR8LocationE">
+      <Location id="1282" name="end" start="26539682" end="26539682" flags="IsMark,IsEnd" locked="no"/>
+      <Location id="1282" name="end" start="30152320" end="30152320" flags="IsMark,IsEnd" locked="no"/>
+    </MementoCommand>
+    <MementoCommand obj_id="1283" type_name="N6ARDOUR13AudioPlaylistE">
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1933" name="mics-10.1" start="0" length="1228766" position="21898982" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="9" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1900" source-1="1902" source-2="1905" source-3="1907" source-4="1909" source-5="1911" source-6="1913" source-7="1915" source-8="1917" source-9="1919" channels="10" master-source-0="1900" master-source-1="1902" master-source-2="1905" master-source-3="1907" master-source-4="1909" master-source-5="1911" master-source-6="1913" master-source-7="1915" master-source-8="1917" master-source-9="1919">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1972" name="mics-11.1" start="0" length="3411934" position="23127748" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="10" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1939" source-1="1941" source-2="1944" source-3="1946" source-4="1948" source-5="1950" source-6="1952" source-7="1954" source-8="1956" source-9="1958" channels="10" master-source-0="1939" master-source-1="1941" master-source-2="1944" master-source-3="1946" master-source-4="1948" master-source-5="1950" master-source-6="1952" master-source-7="1954" master-source-8="1956" master-source-9="1958">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+      </Playlist>
+      <Playlist name="mics" orig_diskstream_id="141" frozen="no">
+        <Region id="1550" name="mics-1.1" start="0" length="3784670" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1484" source-1="1486" source-2="1488" source-3="1490" source-4="1492" source-5="1494" source-6="1496" source-7="1498" source-8="1500" source-9="1502" channels="10" master-source-0="1484" master-source-1="1486" master-source-2="1488" master-source-3="1490" master-source-4="1492" master-source-5="1494" master-source-6="1496" master-source-7="1498" master-source-8="1500" master-source-9="1502">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1588" name="mics-2.1" start="0" length="3387358" position="3784670" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1660" name="mics-3.1" start="0" length="3436510" position="7276500" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1699" name="mics-4.1" start="0" length="3493854" position="10713010" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1666" source-1="1668" source-2="1670" source-3="1672" source-4="1674" source-5="1676" source-6="1678" source-7="1680" source-8="1682" source-9="1684" channels="10" master-source-0="1666" master-source-1="1668" master-source-2="1670" master-source-3="1672" master-source-4="1674" master-source-5="1676" master-source-6="1678" master-source-7="1680" master-source-8="1682" master-source-9="1684">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1738" name="mics-5.1" start="0" length="1101790" position="14206864" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1705" source-1="1707" source-2="1709" source-3="1711" source-4="1713" source-5="1715" source-6="1717" source-7="1719" source-8="1721" source-9="1723" channels="10" master-source-0="1705" master-source-1="1707" master-source-2="1709" master-source-3="1711" master-source-4="1713" master-source-5="1715" master-source-6="1717" master-source-7="1719" master-source-8="1721" master-source-9="1723">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1777" name="mics-6.1" start="0" length="2572254" position="15308654" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1744" source-1="1746" source-2="1748" source-3="1750" source-4="1753" source-5="1755" source-6="1757" source-7="1759" source-8="1761" source-9="1763" channels="10" master-source-0="1744" master-source-1="1746" master-source-2="1748" master-source-3="1750" master-source-4="1753" master-source-5="1755" master-source-6="1757" master-source-7="1759" master-source-8="1761" master-source-9="1763">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1816" name="mics-7.1" start="0" length="1703902" position="17880908" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1783" source-1="1785" source-2="1787" source-3="1789" source-4="1791" source-5="1793" source-6="1795" source-7="1797" source-8="1800" source-9="1802" channels="10" master-source-0="1783" master-source-1="1785" master-source-2="1787" master-source-3="1789" master-source-4="1791" master-source-5="1793" master-source-6="1795" master-source-7="1797" master-source-8="1800" master-source-9="1802">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1855" name="mics-8.1" start="0" length="1097694" position="19584810" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1822" source-1="1824" source-2="1826" source-3="1829" source-4="1831" source-5="1833" source-6="1835" source-7="1837" source-8="1839" source-9="1841" channels="10" master-source-0="1822" master-source-1="1824" master-source-2="1826" master-source-3="1829" master-source-4="1831" master-source-5="1833" master-source-6="1835" master-source-7="1837" master-source-8="1839" master-source-9="1841">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1894" name="mics-9.1" start="0" length="1216478" position="20682504" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="8" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1861" source-1="1863" source-2="1865" source-3="1867" source-4="1869" source-5="1872" source-6="1874" source-7="1876" source-8="1878" source-9="1880" channels="10" master-source-0="1861" master-source-1="1863" master-source-2="1865" master-source-3="1867" master-source-4="1869" master-source-5="1872" master-source-6="1874" master-source-7="1876" master-source-8="1878" master-source-9="1880">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1933" name="mics-10.1" start="0" length="1228766" position="21898982" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="9" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1900" source-1="1902" source-2="1905" source-3="1907" source-4="1909" source-5="1911" source-6="1913" source-7="1915" source-8="1917" source-9="1919" channels="10" master-source-0="1900" master-source-1="1902" master-source-2="1905" master-source-3="1907" master-source-4="1909" master-source-5="1911" master-source-6="1913" master-source-7="1915" master-source-8="1917" master-source-9="1919">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="1972" name="mics-11.1" start="0" length="3411934" position="23127748" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="10" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1939" source-1="1941" source-2="1944" source-3="1946" source-4="1948" source-5="1950" source-6="1952" source-7="1954" source-8="1956" source-9="1958" channels="10" master-source-0="1939" master-source-1="1941" master-source-2="1944" master-source-3="1946" master-source-4="1948" master-source-5="1950" master-source-6="1952" master-source-7="1954" master-source-8="1956" master-source-9="1958">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+          <extra>
+            <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
+          </extra>
+        </Region>
+        <Region id="2011" name="mics-12.1" start="0" length="3612638" position="26539682" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="11" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1978" source-1="1980" source-2="1982" source-3="1984" source-4="1986" source-5="1988" source-6="1991" source-7="1993" source-8="1995" source-9="1997" channels="10" master-source-0="1978" master-source-1="1980" master-source-2="1982" master-source-3="1984" master-source-4="1986" master-source-5="1988" master-source-6="1991" master-source-7="1993" master-source-8="1995" master-source-9="1997">
+          <FadeIn default="yes" active="yes"/>
+          <FadeOut default="yes" active="yes"/>
+          <Envelope default="yes"/>
+        </Region>
+      </Playlist>
+    </MementoCommand>
+  </UndoTransaction>
+</UndoHistory>

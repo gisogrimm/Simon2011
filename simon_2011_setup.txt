@@ -1,0 +1,20 @@
+Testton -50dBV =
+ch1: -32.8
+ch2: -34.3
+ch3: -33.6
+ch4: -33.9
+ch5:
+ch6:
+ch9: -29.1
+ch10: -28.4
+ch11: -28.0
+ch12: -29.0
+ch1-2 = kugel dicht
+ch3-4 = kugel weit
+ch5-6 = niere weit
+ch9-12 = Tetramic
+
+Änderung:
+ch1-2 Kugel raum weit
+ch3-4 Kugel, mittel
+ch5-6 Niere, mittel, Phasen-match
