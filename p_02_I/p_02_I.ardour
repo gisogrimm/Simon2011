@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="2.0.0" name="p_02_I" sample-rate="44100" id-counter="1846">
+<Session version="2.0.0" name="p_02_I" sample-rate="44100" id-counter="2871">
   <Config>
     <Option name="output-auto-connect" value="2"/>
     <Option name="input-auto-connect" value="1"/>
@@ -145,7 +145,7 @@
   <Connections/>
   <Routes>
     <Route flags="MasterOut" default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=0:signal=0">
-      <IO name="master" id="18" active="yes" inputs="{niere_hinten/out 1,kugel_hinten/out 1,kugel_vorne/out 1}{niere_hinten/out 2,kugel_hinten/out 2,kugel_vorne/out 2}" outputs="{system:playback_1}{system:playback_2}" gain="1.000000000000" iolimits="-1,2,-1,2">
+      <IO name="master" id="18" active="yes" inputs="{niere_hinten/out 1,kugel_hinten/out 1,kugel_vorne/out 1}{niere_hinten/out 2,kugel_hinten/out 2,kugel_vorne/out 2}" outputs="{system:playback_1}{system:playback_2}" gain="1.995262265205" iolimits="-1,2,-1,2">
         <Panner linked="no" link_direction="SameDirection" bypassed="no">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -177,8 +177,8 @@
         </GUI>
       </extra>
     </Route>
-    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterInput" order-keys="editor=1:signal=1" mode="Normal" diskstream-id="141">
-      <IO name="mics" id="134" active="yes" inputs="{system:capture_1}{system:capture_2}{system:capture_3}{system:capture_4}{system:capture_5}{system:capture_6}{system:capture_9}{system:capture_10}{system:capture_11}{system:capture_12}" outputs="{kugel_vorne/in 1}{kugel_vorne/in 2}{kugel_hinten/in 1}{kugel_hinten/in 2}{niere_hinten/in 1}{niere_hinten/in 2}{tetramic/in 1}{tetramic/in 2}{tetramic/in 3}{tetramic/in 4}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPreFader" order-keys="editor=1:signal=1" mode="Normal" diskstream-id="141">
+      <IO name="mics" id="134" active="yes" inputs="{system:capture_1}{system:capture_2}{system:capture_3}{system:capture_4}{system:capture_5}{system:capture_6}{system:capture_9}{system:capture_10}{system:capture_11}{system:capture_12}" outputs="{kugel_vorne/in 1}{kugel_vorne/in 2}{kugel_hinten/in 1}{kugel_hinten/in 2}{niere_hinten/in 1}{niere_hinten/in 2}{tetramic/in 1}{tetramic/in 2}{tetramic/in 3}{tetramic/in 4}" gain="1.995262265205" iolimits="1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="yes">
           <Output x="0" y="0"/>
           <Output x="0.10000000149" y="0.10000000149"/>
@@ -210,16 +210,16 @@
       <controllable name="mute" id="139"/>
       <remote_control id="2"/>
       <extra>
-        <GUI color="5650:22500:11788" shown_mixer="yes" height="72" shown_editor="yes" strip_width="Wide">
+        <GUI color="5650:22500:11788" shown_mixer="yes" strip_width="Wide" height="774" shown_editor="yes">
           <gain shown="no" height="72"/>
           <pan shown="no" height="72"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="1333"/>
+      <controllable name="recenable" id="2649"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2">
-      <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+      <IO name="kugel_vorne" id="918" active="yes" inputs="{mics/out 1}{mics/out 2}" outputs="{master/in 1}{master/in 2}" gain="1.743948936462" iolimits="-1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="yes">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -251,8 +251,8 @@
         </GUI>
       </extra>
     </Route>
-    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
-      <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+    <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3">
+      <IO name="kugel_hinten" id="930" active="yes" inputs="{mics/out 3}{mics/out 4}" outputs="{master/in 1}{master/in 2}" gain="1.192561149597" iolimits="-1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="yes">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -284,8 +284,8 @@
         </GUI>
       </extra>
     </Route>
-    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
-      <IO name="niere_hinten" id="942" active="yes" inputs="{mics/out 5}{mics/out 6}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+    <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4">
+      <IO name="niere_hinten" id="942" active="yes" inputs="{mics/out 5}{mics/out 6}" outputs="{master/in 1}{master/in 2}" gain="0.871675729752" iolimits="-1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="yes">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -317,8 +317,8 @@
         </GUI>
       </extra>
     </Route>
-    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=5:signal=5">
-      <IO name="tetramic" id="972" active="yes" inputs="{mics/out 7}{mics/out 8}{mics/out 9}{mics/out 10}" outputs="{}{}{}{}" gain="1.000000000000" iolimits="-1,-1,-1,-1">
+    <Route default-type="audio" muted="yes" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=5:signal=5">
+      <IO name="tetramic" id="972" active="yes" inputs="{mics/out 7}{mics/out 8}{mics/out 9}{mics/out 10}" outputs="{tetraproc:A-form.1(LF)}{tetraproc:A-form.2(RF)}{tetraproc:A-form.3(LB)}{tetraproc:A-form.4(RB)}" gain="1.995262265205" iolimits="-1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="yes">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -338,7 +338,7 @@
       <controllable name="mute" id="977"/>
       <remote_control id="6"/>
       <extra>
-        <GUI color="3123:2323:30259" strip_width="Wide" shown_mixer="yes" height="72" shown_editor="yes">
+        <GUI color="3123:2323:30259" shown_mixer="yes" height="72" shown_editor="yes" strip_width="Wide">
           <gain shown="no" height="72"/>
           <pan shown="no" height="72"/>
         </GUI>
@@ -354,7 +354,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1588" name="mics-2.1" start="0" length="3559390" position="843742" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1556" source-1="1558" source-2="1560" source-3="1562" source-4="1564" source-5="1566" source-6="1568" source-7="1570" source-8="1572" source-9="1574" channels="10" master-source-0="1556" master-source-1="1558" master-source-2="1560" master-source-3="1562" master-source-4="1564" master-source-5="1566" master-source-6="1568" master-source-7="1570" master-source-8="1572" master-source-9="1574">
@@ -362,7 +362,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1626" name="mics-3.1" start="0" length="3014622" position="4403132" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1594" source-1="1596" source-2="1598" source-3="1600" source-4="1602" source-5="1604" source-6="1606" source-7="1608" source-8="1610" source-9="1612" channels="10" master-source-0="1594" master-source-1="1596" master-source-2="1598" master-source-3="1600" master-source-4="1602" master-source-5="1604" master-source-6="1606" master-source-7="1608" master-source-8="1610" master-source-9="1612">
@@ -370,7 +370,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1664" name="mics-4.1" start="0" length="2977758" position="7417754" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1632" source-1="1634" source-2="1636" source-3="1638" source-4="1640" source-5="1642" source-6="1644" source-7="1646" source-8="1648" source-9="1651" channels="10" master-source-0="1632" master-source-1="1634" master-source-2="1636" master-source-3="1638" master-source-4="1640" master-source-5="1642" master-source-6="1644" master-source-7="1646" master-source-8="1648" master-source-9="1651">
@@ -378,7 +378,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1702" name="mics-5.1" start="0" length="1011678" position="10395512" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="4" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1670" source-1="1672" source-2="1674" source-3="1676" source-4="1678" source-5="1680" source-6="1682" source-7="1684" source-8="1686" source-9="1688" channels="10" master-source-0="1670" master-source-1="1672" master-source-2="1674" master-source-3="1676" master-source-4="1678" master-source-5="1680" master-source-6="1682" master-source-7="1684" master-source-8="1686" master-source-9="1688">
@@ -386,7 +386,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1741" name="mics-6.1" start="0" length="3215326" position="11407190" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="5" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1708" source-1="1710" source-2="1712" source-3="1714" source-4="1716" source-5="1718" source-6="1720" source-7="1722" source-8="1725" source-9="1727" channels="10" master-source-0="1708" master-source-1="1710" master-source-2="1712" master-source-3="1714" master-source-4="1716" master-source-5="1718" master-source-6="1720" master-source-7="1722" master-source-8="1725" master-source-9="1727">
@@ -394,7 +394,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1780" name="mics-7.1" start="0" length="3055582" position="14622516" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="6" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1747" source-1="1749" source-2="1751" source-3="1753" source-4="1755" source-5="1757" source-6="1759" source-7="1761" source-8="1764" source-9="1766" channels="10" master-source-0="1747" master-source-1="1749" master-source-2="1751" master-source-3="1753" master-source-4="1755" master-source-5="1757" master-source-6="1759" master-source-7="1761" master-source-8="1764" master-source-9="1766">
@@ -402,7 +402,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
       <Region id="1819" name="mics-8.1" start="0" length="3227614" position="17678098" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="7" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut" scale-gain="1" source-0="1786" source-1="1788" source-2="1790" source-3="1793" source-4="1795" source-5="1797" source-6="1799" source-7="1801" source-8="1803" source-9="1805" channels="10" master-source-0="1786" master-source-1="1788" master-source-2="1790" master-source-3="1793" master-source-4="1795" master-source-5="1797" master-source-6="1799" master-source-7="1801" master-source-8="1803" master-source-9="1805">
@@ -410,7 +410,7 @@
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="yes"/>
         </extra>
       </Region>
     </Playlist>
@@ -440,8 +440,9 @@
     <Meter start="1|1|0" note-type="4.000000" beats-per-bar="4.000000" movable="no"/>
   </TempoMap>
   <ControlProtocols>
-    <Protocol name="Mackie" active="no"/>
-    <Protocol name="Generic MIDI" active="no"/>
-    <Protocol name="Tranzport" active="yes"/>
+    <Protocol name="Mackie" bank="0" active="yes"/>
+    <Protocol name="Generic MIDI" feedback="0" feedback_interval="10000" active="yes">
+      <controls/>
+    </Protocol>
   </ControlProtocols>
 </Session>
